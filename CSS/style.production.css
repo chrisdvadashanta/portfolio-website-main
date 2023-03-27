@@ -191,6 +191,8 @@ heliotrope #d933ff
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   .grid-container__item {
     width: 320px ;

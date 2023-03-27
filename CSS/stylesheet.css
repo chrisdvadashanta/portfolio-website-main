@@ -164,6 +164,8 @@ width:350px ;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .grid-container__item {
   width: 320px ;
