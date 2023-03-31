@@ -1,84 +1,86 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-    <link  rel="shortcut icon"  href="img/favicon.ico">
-    <title> Chris-Keller-Contact</title>  
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title> Chris-Keller-Contact</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
 </head>
+
 <body>
 
     <header class="page-header">
-       
+
         <img src="img/Logo.png" alt="general Logo" class="page-header__item" width="100">
         <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-            <li role="presentation">
-                <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">home</a>
-            </li>
-            <li role="presentation">
-                <a href="about.html" role="menuitem" class="navigation-list__item">about me</a>
-            </li>
-            <li role="presentation">
-                <a href="contact.html" role="menuitem" class="navigation-list__item">contact</a>
-            </li>
-            <li role="presentation">
-                <a href="project.html" role="menuitem" class="navigation-list__item">Project</a>
-            </li>
-        </ul>    
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">about me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="project.html" role="menuitem" class="navigation-list__item">Project</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
-    <div>
+    <div class="heading_1">
         <h1>Contact</h1>
     </div>
 
     <form action="sign-up-form" method="post" class="form-contact">
         <p>
-            <label for="email" > Email: </label>
+            <label for="email"> Email: </label> <br>
             <input type="email" id="email" name="user_email" required class="form-contact__input">
         </p>
         <p>
-            <label for="name"> Name: </label>
+            <label for="name"> Name: </label> <br>
             <input type="text" id="name" required class="form-contact__input">
         </p>
         <p>
-            <label for="tel"> Tel:</label>
+            <label for="tel"> Tel: (000-000-0000)</label> <br>
             <input type="tel" id="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required class="form-contact__input">
         </p>
-        <label for="checkbox"> I'm a human</label>
+        <label for="checkbox"> I'm a human</label> <br>
         <input type="checkbox" id="checkbox" required class="form-contact__input"><br>
         <br>
-        <label for="message"> Words:</label>
-        <textarea maxlength="240" id="message" required class="form-contact__input" ></textarea>
+        <label for="message"> Words:</label> <br>
+        <textarea maxlength="240" id="message" required class="form-contact__input"></textarea>
         <br>
         <br>
-        
+
         <p>
             <button type="submit"> Register </button>
         </p>
     </form>
-    <h2>Chris Keller</h2>
+    <h2 class="heading_1">Chris Keller</h2>
     <section class="form-contact">
         Gruentaler Str<br>
         13357 Berlin<br>
         <a href="tel:+491769999999"> Tel: +49176999999999</a><br>
         <br>
-        <a
-            href="mailto:christophkeller0@gmail.com">
+        <a href="mailto:christophkeller0@gmail.com">
             Email: christophkeller0@gmail.com
         </a> <br>
-        <a 
-            href="https://chriskeller.co" target="_blank">
+        <a href="https://chriskeller.co" target="_blank">
             Homepage: chriskeller.eu
         </a>
         <a
@@ -86,20 +88,21 @@
             <h3>Contact me</h3>
         </a>
     </section>
-  
+
     <footer class="page-footer">
         <div class="footer-heading">
-            <h3 > Find me on </h3>
+            <h3> Find me on </h3>
         </div>
         <div class="social-media">
             <a href="https://twitter.com/elonmusk" class="social-media__item" target="_blank">
-            <img src="img/twitter_icon.svg" alt="Twitter logog" width="50" height="50">
+                <img src="img/twitter_icon.svg" alt="Twitter logog" width="50" height="50">
             </a>
             <a href="https://www.github.com/chrisdvadashanta" class="social-media__item" target="_blank">
-            <img src="img/github_icon.svg" alt="Github logo" width="50" height="50" >
+                <img src="img/github_icon.svg" alt="Github logo" width="50" height="50">
             </a>
-            <a href="https://www.linkedin.com/in/christoph-keller-2a7244170/" class="social-media__item" target="_blank">
-            <img src="img/linkedin_icon.svg" alt="LinkedIn logo" width="50" height="50" >
+            <a href="https://www.linkedin.com/in/christoph-keller-2a7244170/" class="social-media__item"
+                target="_blank">
+                <img src="img/linkedin_icon.svg" alt="LinkedIn logo" width="50" height="50">
             </a>
         </div>
     </footer>
